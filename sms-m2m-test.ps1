@@ -17,7 +17,7 @@ param (
 
 
 # Configuration
-$apiUrl = 'https://prod-readyalertapi.azurewebsites.net/api/v1/SMS/send-m2m-sms?email=steven.farmer@mesaaz.gov&message=Test From Postman&apikey={{x-apikey}}'
+$apiUrl = 'https://prod-readyalertapi.azurewebsites.net/api/v1/SMS/send-m2m-sms?email=steven.farmer@mesaaz.gov&message=Test From PowerShell Script&apikey={{x-apikey}}'
 $apiKey = '3ea3b13c-759a-4c4d-8627-129d0fcac000' # Replace with your API key
 # $intervalSeconds = 60 # Interval between requests in seconds
 # $durationMinutes = 10 # Total duration in minutes
